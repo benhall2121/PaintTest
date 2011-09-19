@@ -1,0 +1,29 @@
+body{
+ background-color:gray;
+}
+
+
+#container{
+}
+
+#can{
+    background-color:white;
+    cursor: crosshair;
+    border:black solid 1px;
+}
+
+#clr div{
+    cursor:pointer;
+    cursor:hand;
+    width:20px;
+    height:20px;
+    float:left;
+}
+
+a{
+	font-size:20px;
+	text-decoration:none;
+	background:#4CA64C;
+	color:#fff;
+	padding:5px;
+ }
