@@ -45,7 +45,7 @@ $(document).ready(function() {
            ctx.oldX = x; 
            ctx.oldY = y;
             
-       });
+        });
 
 	
        //code for color pallete
