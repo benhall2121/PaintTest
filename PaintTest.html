@@ -9,38 +9,52 @@
   </head>
   <body>
     <div id="container">
-      <canvas id="can" width="360px" height="400px">
+      <div class="wrapper">
+        <canvas id="can" width="900px" height="400px">
+        </canvas>
+      </div>
       
-      </canvas>
-      <div id="clr">
-        <div style="background-color:#000000;"> </div>
-        <div style="background-color:#999999;"> </div>
-        <div style="background-color:#FF0000;"> </div>
-        <div style="background-color:#BB0000;"> </div>
-        <div style="background-color:#FF7F00;"> </div>
-        <div style="background-color:#DE6E00;"> </div>
-	<div style="background-color:#FFFF00;"> </div>
-	<div style="background-color:#F0E111;"> </div>
-	<div style="background-color:#00FF00;"> </div>
-	<div style="background-color:#008500;"> </div>
-	<div style="background-color:#0000FF;"> </div>
-	<div style="background-color:#00008C;"> </div>
-	<div style="background-color:#6600FF;"> </div>
-	<div style="background-color:#9F5EFF;"> </div>
-	<div style="background-color:#8B00FF;"> </div>
-	<div style="background-color:#6500BA;"> </div>
-	<div style="background-color:#FFFFFF;"> </div>
-	<div style="background-color:#CFCFCF;"> </div>
-      </div><br /><br />
-      <a href="#" id="clear" >Clear</a> 
-      <a id="save" href="#">Save</a> 
-      <a id="eraser" href="#">Eraser</a> 
-      <br />
-      <br />
-      <span id="coords" ></span>  
-      <br />
-      <br />
-      <span id="result" ></span>  
+      <div id="clr" class="wrapper">
+        <div class="color_selected" style="background-color:#000000;"> </div>
+        <div style="background-color:#999999;">&nbsp;</div>
+        <div style="background-color:#FF0000;">&nbsp;</div>
+        <div style="background-color:#BB0000;">&nbsp;</div>
+        <div style="background-color:#FF7F00;">&nbsp;</div>
+        <div style="background-color:#DE6E00;">&nbsp;</div>
+	<div style="background-color:#FFFF00;">&nbsp;</div>
+	<div style="background-color:#F0E111;">&nbsp;</div>
+	<div style="background-color:#00FF00;">&nbsp;</div>
+	<div style="background-color:#008500;">&nbsp;</div>
+	<div style="background-color:#0000FF;">&nbsp;</div>
+	<div style="background-color:#00008C;">&nbsp;</div>
+	<div style="background-color:#6600FF;">&nbsp;</div>
+	<div style="background-color:#9F5EFF;">&nbsp;</div>
+	<div style="background-color:#8B00FF;">&nbsp;</div>
+	<div style="background-color:#6500BA;">&nbsp;</div>
+	<div style="background-color:#FFFFFF;">&nbsp;</div>
+	<div style="background-color:#CFCFCF;">&nbsp;</div>
+      </div>
+      
+      <div class="wrapper tools">
+        <div>
+          Line Size: <input type="text" id="line_size" />
+	</div>
+      </div>
+      
+      <div class="wrapper buttons">
+        <div class="button_selected" id="pen">Pen</div> 
+        <div id="clear">Clear</div> 
+        <div id="save">Save</div> 
+        <div id="eraser">Eraser</div> 
+      </div>
+      
+      <div class="wrapper">
+        <span id="coords" ></span>  
+      </div>
+      
+      <div class="wrapper">
+        <span id="result" ></span>  
+      </div>
     </div>
   </body>
 

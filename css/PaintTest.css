@@ -4,26 +4,58 @@ body{
 
 
 #container{
+  width:905px;
+  margin: 0 auto;
+  text-align:center;
 }
 
 #can{
-    background-color:white;
-    cursor: crosshair;
-    border:black solid 1px;
+  background-color:white;
+  cursor: crosshair;
+  border:black solid 1px;
 }
 
 #clr div{
-    cursor:pointer;
-    cursor:hand;
-    width:20px;
-    height:20px;
-    float:left;
+  cursor:pointer;
+  cursor:hand;
+  width:20px;
+  height:20px;
+  margin:2px -2px 0 -2px;
+  padding:0;
+  border:none;
+  display:inline-block;
+  vertical-align:top;
 }
 
-a{
-	font-size:20px;
-	text-decoration:none;
-	background:#4CA64C;
-	color:#fff;
-	padding:5px;
+#clr div.color_selected{
+  border:2px dashed white;
+  margin-top:0;
+}
+
+#line_size{
+  width:30px; 
+  margin-left:5px;
+}
+
+.buttons div{
+  font-size:20px;
+  text-decoration:none;
+  background-color:#4CA64C;
+  color:#fff;
+  padding:5px;
+  display:inline-block;
+}
+ 
+.buttons div:hover{
+  cursor:pointer;  
+  background-color:#24A624;	 
+}
+
+div.button_selected{
+  background-color:#24A624;
+}
+ 
+ .wrapper{
+  overflow:auto;
  }
+ 
